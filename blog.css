@@ -1,0 +1,227 @@
+
+
+/*
+
+
+
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+body, html {
+    height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: arial, sans-serif;
+  color: #909090;
+  background: #4a4a50;
+}
+a{
+	color:#26decd;
+	text-decoration:none;
+}
+a:visited{
+	color:#22bfb1;
+}
+a:hover{
+	color: #fff;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #333;
+}
+
+
+
+
+.blog-masthead {
+  
+}
+.blog-nav{
+	display: table;
+    margin: 0 auto;
+}
+.blog-nav a{
+	color: #b9b9b9;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+  line-height: 30px;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;	
+}
+.blog-nav li a {
+    color: #b9b9b9;
+}
+.blog-nav li a:hover {
+    color: #fff;
+}
+
+.blog-nav .active {
+  color: #fff;
+}
+.pager .pp,.pager .pn{
+	width:50%;
+	float:left;
+	min-height: 1px;
+}
+.pager .pn {
+	text-align:left;
+}
+.pager .pp{
+	text-align:right;
+}
+.pager a,.pager span {
+	
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.pager a{background: #22bfb1;color: #4a4a50;}
+.row {
+    display: table;
+margin:0 auto;
+}
+.blog-main{
+max-width:968px;
+    overflow: auto;
+	margin:0 auto;
+}
+
+
+
+.blog-header {
+padding: 50px 0;
+  
+}
+.headcon{
+	  text-align:center;
+  display:table;
+  margin:0 auto;
+}
+.blog-title {
+  font-size: 500%;
+  font-weight: normal;
+text-align:center;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+text-align:center;
+}
+
+
+
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+
+.blog-post {
+
+}
+
+.blog-post-title {
+  margin-bottom: 5px;
+
+}
+
+
+
+
+.blog-footer {
+  padding: 40px 0;
+  
+  text-align: center;
+
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}*/

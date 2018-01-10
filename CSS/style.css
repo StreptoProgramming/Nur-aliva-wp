@@ -1,0 +1,851 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: arno;
+    src: url(./Font/Arno/ArnoPro-Regular.otf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(./Font/Bebas/BEBAS___.ttf);
+}
+@font-face {
+    font-family: rogue;
+    src: url(./Font/Rogue/RougeScript-Regular.ttf);
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+margin: 0;
+font-family: arno, serif;
+}
+#headnav {
+	background: #fff;
+	max-width: 968px;
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	position:relative;
+}
+header{
+font-size: 400%;
+text-align: left;
+padding: 10px;
+font-family: arial, sans-serif;
+font-weight: bold;
+float: left;
+max-width:200px;
+}
+header img{
+display: block;
+    max-width: 100%;
+}
+nav{
+    font-family: arno,serif;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+nav ul, nav li{
+list-style:none;
+padding:0;
+margin: 0;
+
+}
+nav ul{
+display: table;
+    margin: 0 auto;
+	
+	}
+nav li{
+    display: inline-block;
+
+}
+nav li a{
+color: #000!important;
+font-weight: bold;
+font-size: 120%;
+text-decoration: none;
+    padding: 10px 15px;
+	border: 3px solid #fff;
+	border-radius: 35px;
+	    display: block;
+}
+nav li a:hover{
+	border-color: #fdeadb;
+}
+#slider{
+	background:#222;
+	width:100%;
+
+}
+.free-simple-slider{
+    //max-width: 1280px;
+    margin: 0 auto;
+}
+.container {
+	
+}
+.maxer{
+	min-height: 500px;
+	padding: 30px 10px;
+	max-width: 968px;
+	margin: 0 auto;
+}
+ h2.judu{
+	font-size: 300%;
+	font-weight:bold;	
+	text-align: center;
+	font-family: bebas,arial, sans-serif;
+    margin: 30px auto;
+}
+#about{
+		    background: url(./img/pattern.jpg);
+    background-repeat: repeat;
+}
+#about #boutbox {
+
+	background: #fdeadb;
+	margin: 30px auto;
+}
+#about #boutbox .bagi{
+	float: left;
+	width: 40%;
+}
+#about #boutbox .bagi2{
+	float: left;
+	width: 60%;
+	    max-width: 100%;
+		margin-bottom: -60px;
+}
+#about .bulet {
+	background: #000;
+	border-radius: 100%;
+}
+#about .bulet img{
+	display: block;
+	width: 100%;
+}
+#about .boutcon {
+	padding: 50px;
+}
+#testimoni {
+	margin-top: 70px;
+}
+.bagi#dua {
+	display:block;
+	width: 100%;
+}
+.readm {
+    background: #93683e;
+    display: table;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 140%;
+    font-family: arno;
+    line-height: 100%;
+}
+.keung {
+	max-width:968px;
+	margin: 0 auto;
+}
+.keung .bag{
+	width:25%;
+	float: left;
+}
+.keung h2{
+	font-size: 150%;
+	margin-bottom: 70px;
+}
+#keunggul .bulet{
+background: #ddd;
+    width: 60%;
+    /* height: 60%; */
+    margin: 0 auto -50%;
+}
+#testimoni  .bulet img{
+width: 90%;
+    display: block;
+    margin: 30px auto;
+}
+
+.pack {
+width: 250px;
+    float: left;
+    text-align: center;
+    padding: 8px;
+}
+.pack h3 {
+	padding: 5px;
+}
+.blogitem h2 {
+	font-size: 200%;
+}
+.blogitem img{
+	float:left;
+	margin: 0 10px 10px 0;
+}
+#subscribe {
+	padding: 50px 10px;
+	background: #ccc;
+}
+#subscribe form{
+	margin: 0 auto;
+	display: table;
+}
+#subscribe .email,#subscribe .submit {
+padding: 10px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: serif;
+    outline: none;
+    height: auto;
+}
+#subscribe .submit{
+	padding: 10px 30px;
+}
+footer {
+	background: #222;
+	padding: 35px 10px;
+	color: #fff;
+	font-size: 150%;
+	text-align: center;
+
+}
+footer #footmax{
+		max-width:1366px;
+	margin: 0 auto;
+}
+.footc {
+	width:23%;
+	text-align:center;
+	float: left;
+}
+.footc #con {
+	border-left: 2px solid #ddd;
+	padding:  30px;
+	    text-align: left;
+
+}
+.footc div{
+	    padding: 10px 0;
+}
+.footc #con div img, .footc #con div p {
+	display: inline-block;
+	vertical-align:middle;
+}
+.footc #con div img {
+	    height: 50px;
+		    margin-right: 10px;
+}
+.footc #con a{
+	margin: 20px;
+	background: #fff;
+	max-width: 50px;
+    height: 50px;
+}
+.footc ul,.footc li{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.footc li{
+	line-height: 150%;
+}
+.footc li a{
+	text-decoration: none;
+	color: #ddd;
+}
+.footc li a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+.footc h3 {
+	font-size: 150%;
+	padding: 10px;
+}
+.footc ul {
+	padding: 10px;
+}
+.kaki {
+	background: #111;
+	text-align:center;
+	padding: 15px;
+	color: #999;
+}
+.Ourpackage {
+	background: #FFFFFF;
+	text-align: center;
+	padding: 50px;
+	letter-spacing: 5px;
+	font-family: "bebas";
+	font-size: 40px;
+}
+
+.PicturePackage {
+	background-position: center;
+	background: #EFF7CF;
+	padding: 10px;
+}
+
+.packsquare{
+	border: solid 250px #D7C9AA;
+}
+
+.padpackage{
+	background-position: center;
+	background : #FFFFFF;
+	padding: 50px;
+}
+
+.allinpackage{
+	width :300px;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-color: #8DD5DB;
+	background-size: 100%;
+	background-position: center;
+	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
+}
+
+.cateringonly{
+	width :300px;
+	height: 300px;
+	float: right;
+	margin: 4px;
+	background-color: #FFB997;
+	background-size: 100%;
+	background-position: center;
+	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
+}
+
+.dekorasionly{
+	width :300px;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-color: #8DD5DB;
+	background-size: 100%;
+	background-position: center;
+	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
+}
+
+.WOonly {
+	width :300px;
+	height: 300px;
+	float: right;
+	margin: 4px;
+	background-color: #FFB997;
+	background-size: 100%;
+	background-position: center;
+	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;	
+}
+
+#padketentuan{
+	background-position: center;
+	background: #EFF7CF;
+	padding: 10px;
+}
+
+.ketentuan{
+	width :300px;
+	background-color: black;
+	float: center; 
+	margin-left: 500px;
+}
+
+.padnamapack{
+	background: #FFFFFF;
+	text-align: center;
+	padding: 50px;
+	font-family: "bebas";	
+}
+
+.padbuffstand{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.pictbuffet{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pictstand{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	position: relative;
+}
+
+.padpilmenu{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+	font-family: "bebas";
+}
+
+.padpilpackage{
+	background-position: center;
+	background : white;
+	padding: 50px;
+	font-family: "bebas";
+}
+
+.padpilpackage2{
+	background-position: center;
+	background : white;
+	padding: 100px;
+}
+
+.pict_pilZamrud{
+	width: 400px;
+	height: 300px;
+	float : left;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+	font-family: "arno pro";
+}
+
+.nama_package{
+	width: 400px;
+	height: 100px;
+	float : left;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+}
+
+.klik_ketentuan{
+	padding: 10px 30px;
+	text-align: center;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: serif;
+    outline: none;
+    height: auto;
+    margin: auto;
+    display: table;
+}
+
+.padjudulketentuan {
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 20px;
+	font-family: "bebas";
+}
+
+.pad_isi_ketentuan{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+}
+
+.padpilmenu {
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+}
+
+.padpilmenu2{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+}
+
+.pict_pilmenukiri{
+	width: 400px;
+	height: 300px;
+	float : left;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pict_pilmenukanan{
+	width: 400px;
+	height: 300px;
+	float : right;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.nama_menu_kiri{
+	width: 400px;
+	height: 100px;
+	float : left;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "arno pro";
+}
+
+.nama_menu_kanan{
+	width: 400px;
+	height: 100px;
+	float : right;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "Arno Pro";
+}
+
+.permata_c {
+	width: 400px;
+	height: 100px;
+	float: left;
+	background: #F69B81;
+	background-size: 100%; 
+	background-position: center;
+	font-family: "Arno Pro";
+	margin-top: 300px;
+	margin-left: -400px;
+}
+
+.pad_rias{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_rias{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_catering_package{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_catering_package{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_dekorasi_package{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_dekorasi_package{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_WO_package{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_WO_package{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_photography {
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pad_profesi{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pad_entertainment{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pad_kostum{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 20px;
+	font-family: "bebas";
+}
+
+.pad_judul_menu_kostum{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 10px;
+	font-family: "bebas";  
+}
+
+.pad_list_menu_kostum{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+	font-family: "arno pro";  
+}
+
+.pad_pil_kostum{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+	font-family: "bebas";
+}
+
+.pad_package_WO{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas"; 
+}
+
+.pad_WO{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas";
+}
+
+.pict_package_WO{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_pildekorasi{
+	background-position: center;
+	background : white;
+	padding: 50px;
+	font-family: "bebas";
+	letter-spacing: 3px;
+}
+
+.pad_pildekorasi2{
+	background-position: center;
+	background : white;
+	padding: 100px;
+	font-family: "bebas";
+}
+
+.pilihan_dekorasi-kiri{
+	width: 400px;
+	height: 300px;
+	float : left;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pilihan_dekorasi-kanan{
+	width: 400px;
+	height: 300px;
+	float : right;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.nama_dekor_kiri{
+	width: 400px;
+	height: 100px;
+	float : left;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "arno pro";
+}
+
+.nama_dekor_kanan{
+	width: 400px;
+	height: 100px;
+	float : right;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "arno pro";
+}
+
+.pad_dekor_pelaminan{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas";
+	letter-spacing: 3px;
+}
+
+.pad_dekor{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas";
+}
+
+.pict_dekor {
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_WO2{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 10px;
+	font-family: "bebas";
+}
+.textOverImage{
+		position:relative;
+		width: 300px;
+		height: 300px;
+		float: left;
+		margin: 4px;
+		background-size: 100%;
+		background-position:center;
+		transition:0.5s;
+}
+
+.textOverImage:hover{
+		background-size:110%;
+}
+
+.textOverImage:after{
+		position:absolute;
+		top:90%;
+		bottom:0;
+		left:0;
+		right:0;
+		white-space: pre-wrap;
+		overflow:hidden;
+		background-color:rgba(0,0,0,0,6);
+		color: #fff;
+		padding: 0 8px;
+		content:attr(data-text);
+		transition:0.5s;
+		
+	
+}
+
+.textOverImage:hover:after{
+	opacity: 1;
+	top:0;
+	padding:8px;
+}
+
+.textOverImage:first-line{
+	color:#fff;
+	font-weight:bold;
+	font-size:1.5em;
+		
+}
+
+.containerTestimoni{
+	min-height: 1800px;
+	padding: 30px 10px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.containerTestimoni h2.lovestory{
+	font-size: 300%;
+	font-weight:bold;	
+	text-align: center;
+	font-family: arial, sans-serif;
+	margin-bottom: 30px;
+}
