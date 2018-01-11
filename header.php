@@ -29,7 +29,7 @@
 <!-- Stylesheet -->
 <!--<link rel="stylesheet" href="./CSS/fss.css">-->
 <!--<script src="<?php //echo esc_url( get_template_directory_uri() ); ?>/JS/fss.js"></script>-->
-<link  rel='stylesheet' type='text/css' href='./css/micin.css'/>
+<link  rel='stylesheet' type='text/css' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/micin.css'/>
 <style>
 @font-face {
     font-family: roboto;
@@ -64,3 +64,24 @@ if( is_page() || is_single() ){
 
 </head>
 <body>
+<?php if ( !is_front_page() ) {?>
+<header id='navh'>
+<div class='maxwid'>
+<a class='img' href='<?php echo esc_url( home_url( '/' ) ); ?>'>
+<img src='<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/img/logo.png'/>
+</a>
+<nav id='navgay'>
+<ul>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/tentang'>Tentang Kami</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/asuhan'>Asuhan</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/program'>Program</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/gallery'>Galeri</a></li>
+<li><a href='#'>Donasi</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/artikel'>Artikel</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/kontak'>Kontak Kami</a></li>
+</ul>
+</nav>
+<img class='img' src='<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/img/logob.png'/>
+</div>
+</header>
+<?php } ?>

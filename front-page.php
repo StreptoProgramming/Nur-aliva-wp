@@ -24,7 +24,25 @@
 <div id='utama'>
 <div id='k1' class='seksi'>
 <div id='rela'>
-Logo Tentang kami Asuhan Program Galeri Donasi Artikel Kontak Kami
+<header id='naver'>
+<div class='maxwid'>
+<a class='img' href='<?php echo esc_url( home_url( '/' ) ); ?>'>
+<img src='<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/img/logo.png'/>
+</a>
+<nav id='navgay'>
+<ul>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/tentang'>Tentang Kami</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/asuhan'>Asuhan</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/program'>Program</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/gallery'>Galeri</a></li>
+<li><a href='#'>Donasi</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/artikel'>Artikel</a></li>
+<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/kontak'>Kontak Kami</a></li>
+</ul>
+</nav>
+<img class='img' src='<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/img/logob.png'/>
+</div>
+</header>
 <div id='slider'>
 <ul class="rslides" id='sliders'>
   <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/Material/Images/foto/slide1.jpg" alt=""></li>
@@ -65,7 +83,7 @@ box dalemnya foto, teks,
 <div class='maxwid'>
 <div class='apader'>
 <?php
-	$idObj = get_category_by_slug('testimoni'); 
+	$idObj = get_category_by_slug('bio'); 
 	$id = $idObj->term_id;
 	$args = array( 'numberposts' => '1', 'cat' => '-'.$id, 'post_status' => 'publish' );
 	$recent_posts = wp_get_recent_posts( $args );
@@ -82,7 +100,7 @@ box dalemnya foto, teks,
 ?>
 <div style='clear: both;'></div>
 <div class='bawah'>
-<a href='<?php echo esc_url( home_url( '/' ) )."blog"; ?>' class='lanjut' target='_blank'>Lebih Lanjut</a>
+<a href='<?php echo esc_url( home_url( '/' ) )."artikel"; ?>' class='lanjut' target='_blank'>Lebih Lanjut</a>
 <div style='clear: both;'></div>
 </div>
 </div>
@@ -92,27 +110,10 @@ box dalemnya foto, teks,
 <div class='maxwid'>
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Name of Widgetized Area") ) : ?>
 <?php endif;?>
-<!--<a class='testimon' style='' ><span class='textOverImage'>
-									
-						</span></a>
-						<a class='testimon' style='' ><span class='textOverImage'>
-									
-						</span></a>
-						<a class='testimon' style='' ><span class='textOverImage'>
-									
-						</span></a>
-						<a class='testimon' style='' ><span class='textOverImage'>
-									
-						</span></a>
-						<a class='testimon' style='' ><span class='textOverImage'>
-									
-						</span></a>
-						<a class='testimon' style='' ><span class='textOverImage'>
-									
-						</span></a>-->
+
 <div style='clear: both;'></div>
 <div class='bawah'>
-<a href='#' class='lanjut'>Lebih Lanjut</a>
+<a href='<?php echo esc_url( home_url( '/' ) )."gallery"; ?>' class='lanjut'>Lebih Lanjut</a>
 <div style='clear: both;'></div>
 </div>
 </div>
@@ -120,7 +121,7 @@ box dalemnya foto, teks,
 </div>
 <div id='k5' class='seksi'>
 <div class='maxwid'>
-Mari berdonasi
+<h3>Mari berdonasi</h3>
 </div>
 </div>
 

@@ -1,6 +1,13 @@
 <?php get_header(); ?>
-	<div id="content">
 
+<?php if(is_page(17)) { ?>
+<div class='maxwid'>
+ <?php
+    $gallery_shortcode = '[gallerys id="' . intval( $post->post_parent ) . '"]';
+    print apply_filters( 'the_content', $gallery_shortcode );
+ ?>
+ </div>
+<?php }else{ ?>
 			<?php 
 				if ( have_posts() ) : while ( have_posts() ) : the_post();
   	
@@ -8,6 +15,6 @@
   
 				endwhile; endif; 
 			?>
-	</div>
+<?php } ?>
 
 <?php get_footer(); ?>
