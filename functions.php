@@ -1,5 +1,6 @@
 <?php
-
+the_post_thumbnail_url( 'medium' );   
+add_image_size( 'setted', 300, 300, true );
 function exclude_category( $query ) {
 $idObj = get_category_by_slug('bio'); 
 $id = $idObj->term_id;
@@ -22,6 +23,8 @@ $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);
 	  else {
   $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $d, $matches);
   $first_img = $matches [1] [0];
+//$extension_pos = strrpos($first_img, '.'); // find position of the last dot, so where the extension starts
+//$first_img = substr($first_img, 0, $extension_pos) . '-150x150' . substr($first_img, $extension_pos);
 
   if(empty($first_img)){ //Defines a default image
     $first_img = esc_url( get_template_directory_uri() )."/Material/Images/default.jpg";

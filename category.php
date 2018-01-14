@@ -6,16 +6,14 @@ get_header();
 ?> 
 <div id='content'>
 
-<?php if(is_category( 'testimoni' )){
+<?php if(is_category( 'bio' )){
 ?>
 
  <div>
- <h2 class='lovestory'>LOVE STORIES</h2>
+ <h2 class='lovestory'>ASUHAN</h2>
 			<?php 
 			if ( have_posts() ) : while ( have_posts() ) : the_post();?>
-									<a class='testimon' style='background-image:url(<?php echo getim(get_the_content());?>)' href="<?php the_permalink(); ?>"><span class='textOverImage'>
-									<span class='tcont'><span class='tjud'><?php the_title(); ?></span><span class='tbod'><?php echo mb_strimwidth(wp_strip_all_tags(get_the_content()),0,250, '...');?></span></span>
-						</span></a>
+									<a class='testimon' style='background-image:url(<?php echo getim(get_the_content());?>);' href="<?php the_permalink(); ?>"><span><?php the_title(); ?></span></a>
 
 			<?php endwhile; ?>
 			
