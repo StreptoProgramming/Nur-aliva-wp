@@ -72,13 +72,13 @@ if( is_page() || is_single() ){
 </a>
 <nav id='navgay'>
 <ul>
-<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/tentang'>Tentang Kami</a></li>
-<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/asuhan'>Asuhan</a></li>
-<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/program'>Program</a></li>
-<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/gallery'>Galeri</a></li>
+<li><a href='<?php echo get_home_url(); ?>/tentang'>Tentang Kami</a></li>
+<li><a href='<?php echo get_home_url(); ?>/category/bio/'>Asuhan</a></li>
+<li><a href='<?php echo get_home_url(); ?>/program'>Program</a></li>
+<li><a href='<?php echo get_home_url(); ?>/gallery'>Galeri</a></li>
 <li><a href='#'>Donasi</a></li>
-<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/artikel'>Artikel</a></li>
-<li><a href='<?php echo esc_url( get_template_directory_uri() ); ?>/kontak'>Kontak Kami</a></li>
+<li><a href='<?php echo get_home_url(); ?>/artikel'>Artikel</a></li>
+<li><a href='<?php echo get_home_url(); ?>/kontak'>Kontak Kami</a></li>
 </ul>
 </nav>
 <img class='img' src='<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/img/logob.png'/>
