@@ -1,26 +1,5 @@
 <?php get_header(); ?>
-<html>
-<head>
-<title>Homepage</title>
-<link  rel='stylesheet' type='text/css' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/micin.css'/>
-<style>
-@font-face {
-    font-family: roboto;
-    src: url(./Font/Roboto-Regular.ttf);
-}
-@font-face {
-    font-family: rosarivo;
-    src: url(./Font/Rosarivo-Regular.ttf);
-}
-/*
-*/
-</style>
-<script type='text/javascript' src='<?php echo esc_url( get_template_directory_uri() ); ?>/JS/jquery.js'></script>
-<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/responsiveslides.css">
-  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/responsiveslides.min.js"></script>
 
-</head>
-<body>
 <div id='utama'>
 <div id='k1' class='seksi'>
 <div id='rela'>

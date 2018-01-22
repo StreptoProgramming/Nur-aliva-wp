@@ -29,7 +29,7 @@
 <!-- Stylesheet -->
 <!--<link rel="stylesheet" href="./CSS/fss.css">-->
 <!--<script src="<?php //echo esc_url( get_template_directory_uri() ); ?>/JS/fss.js"></script>-->
-<link  rel='stylesheet' type='text/css' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/micin.css'/>
+<link  rel='stylesheet' type='text/css' href='<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/micin.css'/>
 <style>
 @font-face {
     font-family: roboto;
@@ -45,8 +45,8 @@
 <?php if (is_front_page()) { ?>
 
 
-<link rel="stylesheet" href="./css/responsiveslides.css">
-  <script src="./js/responsiveslides.min.js"></script>
+<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/responsiveslides.css">
+  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/JS/responsiveslides.min.js"></script>
 <?php } ?>
 
 <style type='text/css'>
